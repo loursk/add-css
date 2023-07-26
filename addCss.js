@@ -45,7 +45,7 @@
           location.hostname.match("localhost") &&
           document.title.match("Add CSS Bookmarklet")
             ? "/addcss.css"
-            : "https://rocktronica.github.io/Add-CSS-Bookmarklet/addcss.min.css",
+            : "https://raw.githubusercontent.com/loursk/add-css/03cb9cb258a516f88309aae43384dddd7ec25516/addCss.js?token=GHSAT0AAAAAACEGFLKEMAEGJFSVMV3SK6JSZGBGIMA",
       })
         .appendTo(o)
         .on("load", function () {
